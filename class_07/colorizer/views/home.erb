@@ -1,0 +1,16 @@
+<h1>Welcome to Colorizer</h1>
+
+<form action='/upcaseify' method='post'> <!-- ACTION GET: Telling the form where to go. Basically, an <a href= ... ACTION POST when you're doing multiple input fields-->
+	
+	<!-- This is a POST -->
+	<input type='text' name='cool_string'>
+	Downcase?
+	<input type='checkbox' name='downcase'> <!-- This will log that downcase is on -->
+	
+	<input type='submit' value='upcaseify!'>
+
+	<!--Links are always a GET resquest (no body) -->
+	<!-- URL params ?greg=sup -->
+	<!-- Forms are always POST (Yes params in body) -->
+
+</form>

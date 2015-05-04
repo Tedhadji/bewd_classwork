@@ -1,0 +1,9 @@
+<h1>All Instructors!</h1>
+
+<% @people.each do |p| %>
+	<p><%= p.name %></p>
+	<ul>
+		<li>Email: <%= p.email %></li>
+		<li>Ice Cream: <%= p.fav_icecream %></li>
+	</ul>
+<% end %>

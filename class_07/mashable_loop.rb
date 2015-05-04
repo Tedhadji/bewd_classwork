@@ -14,9 +14,9 @@ rising.each do |story_hash,| #the story_hash variables points to each array slot
 	puts "\n-----------------\n"
 
 
-rising.each_with_index do |story_hash, index| #the story_hash variables points to each array slot. We create a temporary variable that points to the slot
+# rising.each_with_index do |story_hash, index| #the story_hash variables points to each array slot. We create a temporary variable that points to the slot
 
-	puts "#{index +1 }, #{story_hash['title']}"
-	puts "\n-----------------\n"
+# 	puts "#{index +1 }, #{story_hash['title']}"
+# 	puts "\n-----------------\n"
 	
 end

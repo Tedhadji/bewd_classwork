@@ -1,0 +1,7 @@
+<h1>ALl Ingredients</h1>
+
+<ul>
+	<% @ingredients.each do |ingredient| %>
+		<li><%= ingredient.name %> - <%= ingredient.quantity %> <%= ingredient.unit_of_measure %></li>
+	<% end %>
+</ul>

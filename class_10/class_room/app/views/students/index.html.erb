@@ -1,0 +1,19 @@
+<h1>Classroom App</h1>
+
+<h2>Students</h2>
+<% @students.each do |p| %>
+	<p><%= p.name %></p>
+	<ul>
+		<li>Email: <%= p.email %></li>
+		<li>Ice Cream: <%= p.fav_icecream %></li>
+	</ul>
+<% end %>
+
+<h2>Instructors</h2>
+<% @instructors.each do |p| %>
+	<p><%= p.name %></p>
+	<ul>
+		<li>Email: <%= p.email %></li>
+		<li>Ice Cream: <%= p.fav_icecream %></li>
+	</ul>
+<% end %>
